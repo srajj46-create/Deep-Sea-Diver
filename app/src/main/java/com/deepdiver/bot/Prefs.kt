@@ -7,4 +7,3 @@ object Prefs {
     fun level(c: Context): Int = sp(c).getInt("level", 2)
     fun setLevel(c: Context, v: Int) { sp(c).edit().putInt("level", v).apply() }
 }
-2
